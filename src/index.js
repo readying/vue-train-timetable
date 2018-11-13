@@ -3,7 +3,6 @@ const Component = require("./train_time_table.vue");
 module.exports = Component;
 
 Component.install = Vue => Vue.component(Component.name, Component);
-Component.version = proccess.env.VERSION;
 
 // Install by default if using the script tag
 if (typeof window !== "undefined" && window.Vue) {
