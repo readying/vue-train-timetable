@@ -85,7 +85,7 @@ var train_time_table = { render: function () {
       var size = this.timetable.length;
       var start = position;
       var end = position + this.maximum_display;
-      if (end >= size) { end = size - 1; }
+      if (end >= size) { end = size; }
       console.log(end - start, this.minimum_display);
       if (end - start < this.minimum_display) {
         start = end - this.minimum_display;
