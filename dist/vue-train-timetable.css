@@ -1,0 +1,61 @@
+.__vue-train-timetbale[data-v-417aa8cc] {
+  font-family: helvetica, sans-serif;
+  position: relative;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+.__vue-train-timetbale .start-point[data-v-417aa8cc],
+.__vue-train-timetbale .end-point[data-v-417aa8cc] {
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  position: absolute;
+  left: 0;
+  margin-left: -3px;
+}
+.__vue-train-timetbale .start-point[data-v-417aa8cc] {
+  top: -6px;
+}
+.__vue-train-timetbale .end-point[data-v-417aa8cc] {
+  bottom: -6px;
+}
+.__vue-train-timetbale .stop-item[data-v-417aa8cc] {
+  padding: 5px 0 5px 20px;
+  position: relative;
+}
+.__vue-train-timetbale .stop-item .stop-bar[data-v-417aa8cc] {
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.__vue-train-timetbale .stop-item .stop-bar.start[data-v-417aa8cc] {
+  top: 50%;
+  height: 50%;
+}
+.__vue-train-timetbale .stop-item .stop-bar.start .pointing[data-v-417aa8cc] {
+  top: 0;
+}
+.__vue-train-timetbale .stop-item .stop-bar.end[data-v-417aa8cc] {
+  bottom: 50%;
+  height: 50%;
+}
+.__vue-train-timetbale .stop-item .stop-bar.end .pointing[data-v-417aa8cc] {
+  top: 100%;
+}
+.__vue-train-timetbale .stop-item .stop-bar.pointing[data-v-417aa8cc] {
+  height: 4px;
+  width: 15px;
+  top: 50%;
+  left: 0;
+  margin-top: -2px;
+}
+.__vue-train-timetbale .horizontal.timetable[data-v-417aa8cc] {
+  transform-origin: center;
+  transform: rotate(-90deg);
+}
+.stop-text[data-v-417aa8cc] {
+  font-size: 14px;
+}
+
