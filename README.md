@@ -12,6 +12,10 @@ yarn add vue-train-timetable
 
 CDN: [UNPKG](https://unpkg.com/vue-train-timetable/) | [jsDelivr](https://cdn.jsdelivr.net/npm/vue-train-timetable/) (available as `window.VueTrainTimetable`)
 
+## Example
+
+[Demo](https://madao-3.github.io/vue-train-timetable/example/dist/index.html)
+
 ## Usage
 
 ```vue
