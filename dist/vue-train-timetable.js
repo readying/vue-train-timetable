@@ -5,7 +5,7 @@
 }(this, (function () { 'use strict';
 
 var train_time_table = { render: function () {
-    var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', { staticClass: "__vue-train-timetbale" }, [_c('ul', { class: "timetable " + _vm.directionClass }, _vm._l(_vm.displayList, function (stop, index) {
+    var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', { class: "__vue-train-timetbale " + _vm.directionClass }, [_c('ul', { ref: "timetable", class: "timetable " + _vm.directionClass, style: _vm.directionStyle }, _vm._l(_vm.displayList, function (stop, index) {
       return _c('li', { staticClass: "stop-item" }, [_c('i', { class: "stop-bar " + _vm.appendBarClass(stop), style: _vm.barBackground }, [_vm.is_start(stop) ? _c('i', { staticClass: "start-point", style: _vm.barBackground }) : _vm.is_end(stop) ? _c('i', { staticClass: "end-point", style: _vm.barBackground }) : _c('i', { staticClass: "stop-bar pointing", style: _vm.barBackground })]), _vm._v(" "), _c('span', { staticClass: "stop-text", style: { color: _vm.text_color } }, [_vm._v(" " + _vm._s(stop.name) + " "), stop.icon ? _c('i', { class: stop.icon }) : _vm._e()])]);
     }))]);
   }, staticRenderFns: [], _scopeId: 'data-v-417aa8cc',
@@ -65,6 +65,13 @@ var train_time_table = { render: function () {
   watch: {},
 
   computed: {
+    directionStyle: function directionStyle() {
+      var timetableEl = this.$refs.timetable;
+      var result = this.direction == "vertical" ? {} : {
+        width: this.displayList.length * 25 + "px"
+      };
+      return result;
+    },
     directionClass: function directionClass() {
       return this.direction == "vertical" ? "vertical" : "horizontal";
     },
