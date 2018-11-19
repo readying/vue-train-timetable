@@ -1,5 +1,5 @@
 // need to use require instead of import (changes from babel 5 to 6)
-const Component = require("./train_time_table.vue");
+const Component = require("./vue-train-timetable.vue");
 module.exports = Component;
 
 Component.install = Vue => Vue.component(Component.name, Component);
