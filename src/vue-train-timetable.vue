@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div :class='"__vue-train-timetbale " + directionClass'>
     <ul :style='directionStyle' :class='"timetable " + directionClass' ref="timetable">
       <li v-for='stop, index in displayList' class='stop-item'>
