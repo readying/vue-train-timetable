@@ -1,12 +1,13 @@
 {
   "name": "vue-train-timetable",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Vue Train Timetable Component",
   "repository": {
     "url": "Madao-3/vue-train-timetable",
     "type": "git"
   },
   "main": "dist/vue-train-timetable.cjs.js",
+  "module": "src/index.js",
   "files": [
     "dist"
   ],
@@ -46,6 +47,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.1.6",
+    "@babel/plugin-syntax-decorators": "^7.1.0",
     "@babel/plugin-transform-runtime": "^7.1.0",
     "bili": "^1.3.3",
     "eslint": "^4.14.0",

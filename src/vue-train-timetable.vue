@@ -108,10 +108,13 @@ export default {
   },
   methods: {
     is_end(data) {
-      return this.timetable.indexOf(data) == this.timetable.length - 1;
+      return (
+        this.display_end &&
+        this.timetable.indexOf(data) == this.timetable.length - 1
+      );
     },
     is_start(data) {
-      return this.timetable.indexOf(data) == 0;
+      return this.display_start && this.timetable.indexOf(data) == 0;
     },
     appendBarClass(data) {
       let list = this.displayList;
@@ -137,6 +140,11 @@ export default {
   position: relative;
   font-weight: 500;
   box-sizing: border-box;
+  ul {
+    li {
+      list-style: none;
+    }
+  }
   &.horizontal {
     // overflow-x: hidden;
   }

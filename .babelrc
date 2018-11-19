@@ -3,6 +3,7 @@
   "parserOpts": {
     "plugins": [
       "@babel/plugin-transform-runtime",
+      "@babel/plugin-syntax-decorators",
       ["decorators", { "decoratorsBeforeExport": true }]
     ]
   }
