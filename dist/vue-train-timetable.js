@@ -4,11 +4,11 @@
 	(global.vueTrainTimetable = factory());
 }(this, (function () { 'use strict';
 
-var train_time_table = { render: function () {
+var vueTrainTimetable = { render: function () {
     var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', { class: "__vue-train-timetbale " + _vm.directionClass }, [_c('ul', { ref: "timetable", class: "timetable " + _vm.directionClass, style: _vm.directionStyle }, _vm._l(_vm.displayList, function (stop, index) {
       return _c('li', { staticClass: "stop-item" }, [_c('i', { class: "stop-bar " + _vm.appendBarClass(stop), style: _vm.barBackground }, [_vm.is_start(stop) ? _c('i', { staticClass: "start-point", style: _vm.barBackground }) : _vm.is_end(stop) ? _c('i', { staticClass: "end-point", style: _vm.barBackground }) : _c('i', { staticClass: "stop-bar pointing", style: _vm.barBackground })]), _vm._v(" "), _c('span', { staticClass: "stop-text", style: { color: _vm.text_color } }, [_vm._v(" " + _vm._s(stop.name) + " "), stop.icon ? _c('i', { class: stop.icon }) : _vm._e()])]);
     }))]);
-  }, staticRenderFns: [], _scopeId: 'data-v-417aa8cc',
+  }, staticRenderFns: [], _scopeId: 'data-v-1204c08c',
   name: "vue-train-timetable",
   props: {
     timetable: {
@@ -114,11 +114,11 @@ var train_time_table = { render: function () {
   }
 };
 
-var train_time_table$1 = Object.freeze({
-	default: train_time_table
+var vueTrainTimetable$1 = Object.freeze({
+	default: vueTrainTimetable
 });
 
-var Component = ( train_time_table$1 && train_time_table ) || train_time_table$1;
+var Component = ( vueTrainTimetable$1 && vueTrainTimetable ) || vueTrainTimetable$1;
 
 // need to use require instead of import (changes from babel 5 to 6)
 
