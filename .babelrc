@@ -1,5 +1,9 @@
 {
-  "presets": [
-    "poi"
-  ]
+  "presets": ["poi"],
+  "parserOpts": {
+    "plugins": [
+      "@babel/plugin-transform-runtime",
+      ["decorators", { "decoratorsBeforeExport": true }]
+    ]
+  }
 }
