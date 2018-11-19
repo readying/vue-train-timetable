@@ -96,10 +96,10 @@ var vueTrainTimetable = { render: function () {
   },
   methods: {
     is_end: function is_end(data) {
-      return this.timetable.indexOf(data) == this.timetable.length - 1;
+      return this.display_end && this.timetable.indexOf(data) == this.timetable.length - 1;
     },
     is_start: function is_start(data) {
-      return this.timetable.indexOf(data) == 0;
+      return this.display_start && this.timetable.indexOf(data) == 0;
     },
     appendBarClass: function appendBarClass(data) {
       var list = this.displayList;

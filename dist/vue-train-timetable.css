@@ -4,6 +4,9 @@
   font-weight: 500;
   box-sizing: border-box;
 }
+.__vue-train-timetbale ul li[data-v-1204c08c] {
+  list-style: none;
+}
 .__vue-train-timetbale .start-point[data-v-1204c08c],
 .__vue-train-timetbale .end-point[data-v-1204c08c] {
   width: 12px;
