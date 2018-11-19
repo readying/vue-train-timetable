@@ -9658,11 +9658,6 @@ vue-test-utils@^1.0.0-beta.9:
   dependencies:
     lodash "^4.17.4"
 
-vue-train-timetable@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/vue-train-timetable/-/vue-train-timetable-0.0.3.tgz#a6493031479f6d12281e338a40a066e2d96a1c9a"
-  integrity sha512-W13RQ/DOKP29nb2lZFYohPc3Wr0aSGGCMZD7sDuX8cNU7oA6DdudbYCpIxazQBrW9S/nyW5Oqa6dwEJVmwyd1w==
-
 vue@^2.3.3:
   version "2.5.17"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.17.tgz#0f8789ad718be68ca1872629832ed533589c6ada"

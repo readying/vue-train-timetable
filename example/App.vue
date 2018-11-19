@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import VueTrainTimetable from "vue-train-timetable";
+import VueTrainTimetable from "../src/vue-train-timetable";
 
 export default {
   components: {
