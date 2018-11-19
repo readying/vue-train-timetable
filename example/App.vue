@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class='timetable-container'>
+    <div class='timetable-container' :style='{height: containerHeight}'>
       <h5>
         <strong>Calling at:</strong>
       </h5>
@@ -45,18 +45,19 @@ export default {
     VueTrainTimetable
   },
   computed: {
-    containerWidth() {
-      // return this.direction == "horizontal" ? "500px" : "200px";
+    containerHeight() {
+      return this.direction == "horizontal" ? "130px" : "300px";
     }
   },
   data() {
     return {
       // sub_title: "1st train"
-      maximum_display: 11,
+      maximum_display: 5,
       minimum_display: 2,
       position: 0,
-      direction: "vertical",
+      direction: "horizontal",
       list: [
+        { name: "Heathrow Airport Terminals 2 & 3" },
         {
           name: "London St Pancras International"
         },

@@ -1,5 +1,5 @@
 /*!
- * vue-train-timetable v0.0.7
+ * vue-train-timetable v0.1.0
  * (c) 2018-present Madao <chrishyman256@gmail.com>
  * Released under the MIT License.
  */
